@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Radhika Deshmukh | Portfolio</title>
+
+<link rel="stylesheet" href="style.css">
+
+<!-- Font Awesome Icons -->
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+
+<nav>
+    <div class="logo">RD</div>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- HERO -->
+<section id="home" class="hero">
+    <h3>Hello, I am </h3>
+    <h1>Radhika Deshmukh</h1>
+    <h2><span class="typing"></span></h2>
+    <p>Creating beautiful and responsive web experiences.</p>
+    <div class="social-icons">
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fas fa-envelope"></i></a>
+    </div>
+    <button onclick="scrollToProjects()">Explore My Work</button>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        I am a passionate Computer Science student interested in Web Development,
+        UI/UX design and problem solving.
+    </p>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+    <h2>My Skills</h2>
+    <div class="skill-box">
+        <div>HTML</div>
+        <div>CSS</div>
+        <div>JavaScript</div>
+        <div>Python</div>
+        <div>React (Learning)</div>
+        <div>Git & GitHub</div>
+    </div>
+    
+    <div class="skill-box">
+        <div>FIGMA</div><br>
+        <div>WORD EXCEL</div><br>
+        <div>POWERPOINT</div><br>
+        <div>CANVA</div><br>
+        <div>GitHub</div><br>
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+    <h2>My Projects</h2>
+
+    <div class="project-card">
+        <h3>Student Management System</h3>
+        <p>Python + MySQL based system to manage student data.</p>
+    </div>
+
+    <div class="project-card">
+        <h3>Portfolio Website</h3>
+        <p>Modern responsive website using HTML, CSS & JS.</p>
+    </div>
+
+</section>
+
+<!-- EDUCATION -->
+<section id="education">
+     <h2>Education</h2><br>
+    <h2>Graduction</h2>
+    <p>Bachelor of Computer Science (2023 – 2027)</p><br>
+    <h2>12th</h2>
+    <p>Science (PCM) (2022 – 2023)</p><br>
+    <h2>10th</h2>
+    <p>Mahrashtra Stateboard(2021 – 2022)</p>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+    <h2>Contact Me</h2>
+
+    <form onsubmit="submitForm(event)">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+<footer>
+    © 2026 Radhika Deshmukh | All Rights Reserved
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
